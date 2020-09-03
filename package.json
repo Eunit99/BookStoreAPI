@@ -1,0 +1,21 @@
+{
+  "name": "bookstore_node",
+  "version": "1.0.0",
+  "description": "Node Bookstore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "David",
+    "Asamonye"
+  ],
+  "author": "David Asamonye",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
