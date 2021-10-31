@@ -65,7 +65,7 @@ var server = http.createServer(function(req, res) {
 //start the server
 server.listen(config.port, function() {
     console.log("Server started on PORT " + config.port + " in " + config.envName + " mode");
-})
+});
 
 
 var router = {
@@ -74,4 +74,4 @@ var router = {
     'books': routeHandler.books,
     'notfound': routeHandler.notfound,
     'tokens': userHandler.tokens
-}
+};
